@@ -1,5 +1,4 @@
 %% Convert MNI coords to Voxel XYZ (3D matrix) coordinates
-%Written by Michael T Rubens, June 4 2008, UC San Francisco, Gazzaley Lab
 function [x y z outtype] = mni2orFROMxyz(x, y, z,vs,coordef)
 %x  = x coord to convert, OR, 1D index (voxel position, i.e., from find(n))
 %y  = y coord to convert, OR, dimensions of matrix (i.e., [91 109 91])
